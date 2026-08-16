@@ -14,7 +14,7 @@ You can find documentation about this function [here](https://github.com/pyhacks
 import boringssl
 
 boringssl.root_interface.ProcessLine(b"const SSL_METHOD *method = TLS_method();")
-boringssl.root_interface.ProcessLine(b"std::cout << method << \"\\n\";")
+boringssl.root_interface.ProcessLine(b"pyout << method << \"\\n\";")
 ```
 
 # Version Info
