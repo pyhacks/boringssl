@@ -1,6 +1,9 @@
 # boringssl
 [rootwin](https://github.com/pyhacks/rootwin) is used to access boringssl from python strings containing C++ code.
 
+# Installation
+```pip install boringssl```
+
 # Usage
 boringssl.root_interface.**ProcessLine**(code)
 
