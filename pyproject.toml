@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "boringssl"
-version = "1.0.0"
+version = "1.0.0.post1"
 dependencies = ["rootwin"]
 description = "Boringssl made available to python"
 readme = "README.md"
