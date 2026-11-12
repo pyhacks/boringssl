@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "boringssl"
+version = "1.0.0"
+dependencies = ["rootwin"]
+description = "Boringssl made available to python"
+readme = "README.md"
+authors = [{name = "pyhacks", email = "enginyildirim111@gmail.com"}]
+keywords = ["boringssl", "C++"]
+
+[project.urls]
+Homepage = "https://github.com/pyhacks/boringssl/"
